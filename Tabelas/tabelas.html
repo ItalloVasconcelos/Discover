@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução a tabelas</title>
+</head>
+<body>
+    <!-- 
+        <table>
+            Prós
+            - Visualização de dados via linhas e colunas
+            - Boa acessibilidade para leitura dos dados.
+        
+            Contras
+            - Pouco Flexivel
+            - Precisa de estabilização para melhor visualização
+
+            Não Usar
+            - Para criar layout
+        
+     -->
+     
+     <table> 
+         <caption>Pessoas por idade</caption>  <!--Cria o nome da tabela -->
+        <thead> <!--Cria o cabeçalho -->
+            <tr> <!--Cria a linha (Table Row)-->
+            <th>Nome</th> <!--Cria a coluna -->
+            <th>Idade</th>
+        </tr>
+    </thead> 
+    
+    <tbody>
+         <tr>
+             <td>Myke</td> <!--Cria a descrição -->
+             <td>35</td>
+         </tr>
+         <tr>
+             <td>Diego</td>
+             <td>24</td>
+         </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Total:</td>
+            <td>2 pessoas</td>
+
+        </tr>
+    </tfoot>
+     </table>
+</body>
+</html>
