@@ -1,2 +1,3 @@
 # Discover
-Aulas Rocketseat. 
+Aulas Rocketseat. Guia estelar html
+Apenas HTML
